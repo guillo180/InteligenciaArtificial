@@ -1,0 +1,19 @@
+[project]
+name = "curso-mcp-guillo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "guillo180", email = "guillermo_8511@hotmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+curso-mcp-guillo = "curso_mcp_guillo:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
